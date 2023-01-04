@@ -1,5 +1,5 @@
 {
-  "name": "osquery",
+  "name": "@idationtech/osquery",
   "version": "1.0.0",
   "description": "facebook osquery client",
   "main": "index.js",
@@ -8,15 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sidorares/osquery-node.git"
+    "url": "git://github.com/IDationTech/osquery.git"
   },
   "keywords": [
     "osquery"
   ],
   "author": "Andrey Sidorov <sidorares@yandex.ru>",
   "license": "MIT",
-  "readmeFilename": "README.md",
   "dependencies": {
     "thrift": "0.17.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/IDationTech/osquery/issues"
+  },
+  "homepage": "https://github.com/IDationTech/osquery#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
